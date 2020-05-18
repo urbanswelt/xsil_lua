@@ -1,4 +1,4 @@
 <?php
-$output = `git pull --all https://github.com/urbanswelt/xsil_lua.git `;
+$output = `git clone https://github.com/urbanswelt/xsil_lua.git development `;
 echo "<pre>$output</pre>";
 ?>
